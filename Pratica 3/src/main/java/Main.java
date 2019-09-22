@@ -1,11 +1,9 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
         ArrayList<Jogo> listaJogo;
-        List<Jogo> tempList;
 
         JogoParser parser = new JogoParser("D:\\Downloads\\JogosDesordenados.csv", ",");
         parser.lerArquivo();
